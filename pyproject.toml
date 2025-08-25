@@ -1,0 +1,12 @@
+[project]
+name = "osw-pseudo-color-mixing-example"
+version = "0.1.0"
+description = "Example on how to integrate automated experiments and bayesian optimization as decision helper into OpenSemanticLab."
+requires-python = ">=3.12"
+dependencies = [
+    "ax-platform==0.4.3",
+    "osw>=0.33.0",
+    "panel>=1.7.5",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+]
